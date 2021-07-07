@@ -1,0 +1,67 @@
+@media only screen and (max-width: 700px){
+      .right2{
+           text-align: center;
+           width: 98%;
+      }
+
+
+      .left2 img{
+            position: relative;
+            top: 80px;
+            right: -61px;
+      }
+ 
+      
+      .sec2{
+
+            position: relative;
+            left: 30px;
+            background-image: unset;
+      
+      }
+      .sec2 {
+            height: 700px;
+      
+      }
+      .sec3{
+            height: 300px;
+      }
+      .sec3 h1{
+            text-align: center;
+            padding-top: 10%;
+      }
+      .work img{
+            width: 20%;
+            padding: 20px;
+            transition: width 0.2s ease 0.3s;
+      }
+      .work{
+            padding-left: 12%;
+            padding-top: 3%;
+      }
+      .work img:hover{
+      
+           width: 30%;
+      }
+      .sec3{
+            background-image: url("images/latest-work-bg.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+      
+      }
+}
+.sec1{
+      width: 110%;
+
+}
+.hero img{
+      position: relative;
+      bottom: 30px;
+      right: 190px;
+}
+footer{
+      padding-top: 120px;
+}
+body{
+      font-family: 'Times New Roman', Times, serif;
+}
