@@ -1,0 +1,148 @@
+body{
+      margin: 0%;
+      font-family: cursive;
+}
+.half-width{
+      width: 35%;
+      float: left;
+      font-size: 18px;
+      margin: 3%;
+      padding-left: 8%;
+      padding-top: 3%;
+
+}
+.left1{
+      padding-top: 120px;
+      position: relative;
+      left: 70px;
+}
+.half-width h1{
+      font-size: 50px;
+}
+.half-width h2{
+      font-size: 20px;
+      padding-left: 1%; 
+      transform: translateY(10px);
+}
+.half-width img {
+      float: left;
+      width: 110%;
+      position: relative;
+      right:80px;
+      
+}
+
+.sec1{
+
+      background-image: url("images/header-bg.png");
+      background-repeat:space;
+      background-size: 100%;
+}
+.right2{
+      padding-top: 80px;
+      position: relative;
+      right: 70px;
+}
+.right2 h2{
+   transform: translateY(-20px);
+}
+.left2 img{
+      padding-top: 10px;
+      position: relative;
+      right: 40px;
+      bottom: 35px;
+      width: 110%;
+}
+section::after{
+      content: '';
+      display: table;
+      clear: both;
+      
+}
+.sec2{
+      background-image: url("images/biography-bg.png");
+      background-repeat:no-repeat;
+      background-size: 100%;
+
+}
+.sec2 .social{
+
+}
+.sec3 h1{
+      text-align: center;
+      padding-top: 5%;
+}
+.work img{
+      width: 25%;
+      padding: 20px;
+      transition: width 0.2s ease 0.3s;
+}
+.work{
+      padding-left: 12%;
+      padding-top: 3%;
+}
+.work img:hover{
+
+     width: 30%;
+}
+.sec3{
+      background-image: url("images/latest-work-bg.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+
+}
+section{
+      height: 570px;
+}
+.sec4{
+      background-image: url("images/footer-bg.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+}
+.head-s4{
+      padding-top: 7%;
+      text-align: center;
+}
+.head-s4 h4{
+      margin: 3% 15%;
+}
+.mail a{
+      background-color: rgb(192, 45, 94);
+      text-decoration: none;
+      padding: 2% 5%;
+      border-radius: 4%;
+      color: lavender;
+}
+.mail{
+      text-align: center;
+      padding-top: 3%;
+}
+footer{
+      text-align: center;
+      padding-top: 12%;
+}
+.aam {
+      border-radius: 5%;
+      padding: 1%;
+      text-decoration: none;
+      font-weight: bold;
+ background-image: linear-gradient(45deg,rgb(0, 184, 31),yellow);
+ color: rgb(0, 0, 0);
+ border: 1px solid green;
+}
+.meat {
+      border-radius: 5%;
+      padding: 1%;
+      text-decoration: none;
+      font-weight: bold;
+      background-image: linear-gradient(10deg,rgb(175, 11, 11),rgb(59, 12, 0));
+      color: lavender;
+      margin-left: 5%;
+      border: 1px solid rgb(196, 0, 0);
+}
+.links{
+      padding-top: 4%;
+}
+.links:hover{
+      font-size: larger;
+}
